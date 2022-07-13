@@ -1,0 +1,30 @@
+{
+  "core": null,
+  "themes": [],
+  "plugins": [
+    ".",
+    "https://github.com/WordPress/gutenberg/releases/download/v12.3.0/gutenberg.zip",
+    "https://downloads.wordpress.org/plugin/query-monitor.3.8.1.zip"
+  ],
+  "config": {
+    "WP_DEBUG": true,
+    "SCRIPT_DEBUG": true,
+    "WP_DEBUG_DISPLAY": true,
+    "WP_DEBUG_LOG": true,
+    "GUTENBERG_DEVELOPMENT_MODE": true,
+    "QM_ENABLE_CAPS_PANEL": true
+  },
+  "port": 5555,
+  "env": {
+    "tests": {
+      "config": {
+        "WP_DEBUG": true,
+        "SCRIPT_DEBUG": true,
+        "WP_DEBUG_DISPLAY": true,
+        "WP_DEBUG_LOG": true,
+        "GUTENBERG_DEVELOPMENT_MODE": true
+      },
+      "port": 5556
+    }
+  }
+}
